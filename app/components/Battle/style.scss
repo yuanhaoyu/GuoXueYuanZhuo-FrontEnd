@@ -1,0 +1,68 @@
+
+.battle{
+  // background-image: url(../../images/b1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+  _height:100%;
+  background: #f9f7f1;
+  .battle-pass{
+    width: 80%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-image: url("//yzyxw.oss-cn-shanghai.aliyuncs.com/pic/b2.jpg");
+    background-size: 110%;
+    background-position-y: -24px;
+    background-position-x: 24px;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+
+  .battle-pk{
+    width: 80%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-image: url("//yzyxw.oss-cn-shanghai.aliyuncs.com/pic/b2.jpg");
+    background-size: 110%;
+    background-position-y: -24px;
+    background-position-x: 24px;
+    background-repeat: no-repeat;
+    background-color: white;
+    
+  }
+
+  .battle-rank{
+    width: 80%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-image: url("//yzyxw.oss-cn-shanghai.aliyuncs.com/pic/b2.jpg");
+    background-size: 110%;
+    background-position-y: -24px;
+    background-position-x: 24px;
+    background-repeat: no-repeat;
+    background-color: white;    
+  }
+
+}
+
+hr{
+    width: 92%;
+}

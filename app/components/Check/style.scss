@@ -1,0 +1,38 @@
+.checkBox{
+  width: 100%;
+  min-height: 100%;
+  _height:100%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-image: url("//yzyxw.oss-cn-shanghai.aliyuncs.com/pic/b1.jpg");
+    .check{
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 200px;
+      text-align: center;
+    
+
+      .check-title{
+        border:2px solid #202020;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      .check-content{
+        padding: 15px;
+        border-left: 2px solid #202020;
+        border-right: 2px solid #202020;
+        font-size: 1.5rem;
+      }
+      .check-btn{
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        color: white;
+        background-color: #202020;
+        border:2px solid #202020;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+}
+

@@ -1,0 +1,52 @@
+.ArticeMore{
+    .ArticeMore-title{
+        margin-top: 37px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .ArticeMore-author{
+        margin-top: 16px;
+        text-align: center;
+        font-size: 14px;
+        color: #bead7a;
+    }
+    .ArticeMore-content{
+        padding-top: 8px;
+        padding-left: 48px;
+        padding-right: 32px;
+        padding-bottom: 75px;
+        font-size: 18px;
+        line-height: 50px;
+    }
+    .ArticeMore-other{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        .up{
+            border-radius: 50%;
+            border: 1px solid #bead7a;
+            width: 33px;
+            height: 33px;
+            line-height: 33px;
+            text-align: center;
+            margin: 0 auto;
+            color:#bead7a;
+        }
+        .upLine{
+            margin-bottom: 8px;
+            margin-top: 10px;
+            width: 92%;
+        }
+        .comment{
+            color: gray;
+            font-size: 17px;
+            padding-left: 19px;
+            padding-right: 19px;
+            margin-bottom: 46px;
+            img{
+                height: 15px;
+            }
+        }
+    }
+
+}

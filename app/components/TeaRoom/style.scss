@@ -1,0 +1,30 @@
+.TeaRoom{
+    padding: 12px;
+    padding-top: 5px;
+    .TeaRoom-list{
+        &:first-child{
+            margin-top: 10px;
+        }
+        .TeaRoom-list-title{
+            font-size: 20px;
+            text-indent: 6px;
+            margin-bottom: 4px;
+            
+        }
+        .TeaRoom-list-author{
+            font-size: 14px;
+            margin-bottom: 8px;
+            text-indent: 6px;            
+            color: #bead7a;
+        }
+        .TeaRoom-list-content{
+            font-size: 16px;
+            text-indent: 6px;            
+        }
+        .TeaRoom-list-hr{
+            width: 100%;
+            margin-top: 10px;
+        }
+
+    }
+}

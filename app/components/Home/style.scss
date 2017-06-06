@@ -1,0 +1,26 @@
+
+.home{
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+  _height:100%;
+  height: 100%;
+}
+
+hr{
+    width: 92%;
+}
+
+.home-error{
+  font-size: 22px;
+  text-align: center;
+  position: relative;
+  top: 210px;
+  animation: 7s opacity2 0s infinite;
+}
+
+@keyframes opacity2{
+  0%{opacity:0}
+  50%{opacity:.8;}
+  100%{opacity:0;}
+}

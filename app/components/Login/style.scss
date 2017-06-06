@@ -1,0 +1,73 @@
+
+.loginBox{
+  width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("//yzyxw.oss-cn-shanghai.aliyuncs.com/pic/bg2.jpg");
+  .logotitle{
+    margin-top: 9rem;
+    width: 100%;
+  }
+  .login{
+    margin-top: 12rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+
+    .inputValue{
+      width: 100%;
+      margin-bottom: 0.5rem;
+      height: 2rem;
+      line-height: 2rem;
+      text-indent: 5px;
+      background-color:transparent;
+      border: 0;
+      border-bottom: 1px solid black;
+      outline: 0;
+    }
+
+    .sure{
+      margin-top: 0.5rem;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      background-color:#202020;
+      color: white;
+      outline: 0;
+      border: 0;
+      // border: 1px solid #202020;
+      // border-radius: 5px;
+    }
+    .register-title{
+      margin-top: 0.5rem;
+      margin-bottom: 2px;
+      text-align: center;
+      color: white;
+      a{
+        color: #e53935;
+      }
+    }
+  }
+  .Visitor-line{
+    width: 1px;
+    height: 12px;
+    background: grey;
+    position: absolute;
+    top:0px;
+    right: 30px;
+  }
+  .Visitor{
+    width: 26px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: absolute;
+    top:12px;
+    right: 18px;
+    a{
+      color: grey;
+      font-size: 14px;
+    }
+  }
+}

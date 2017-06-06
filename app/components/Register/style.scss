@@ -1,0 +1,53 @@
+.poetry{
+  padding: 3rem;
+  padding-top: 1.8rem;
+  width: 100%;
+  .register-poetry{
+    width: 20%;
+    height: 4rem;
+    font-size: 1.8rem;
+    text-align: center;
+    float: right;
+    margin-left: 20%;
+  }
+  .register-poetry:last-child{
+    margin-left: 0;
+  }
+
+}
+
+.register{
+    position: absolute;
+    bottom: 1.8rem;
+    padding: 1.8rem;
+    width: 100%;
+    .inputValue{
+      width: 100%;
+      margin-bottom: 0.5rem;
+      height: 2rem;
+      line-height: 2rem;
+      text-indent: 5px;
+      background-color:transparent;
+      border: 0;
+      border-bottom: 1px solid black;
+      outline: 0;
+    }
+
+    .sure{
+      margin-top: 0.5rem;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      background-color:#161616;
+      color: white;
+      outline: 0;
+      border: 0;
+    }
+}
+
+@media screen and (min-width: 400px) {
+  .register-poetry{
+      font-size: 2rem!important;
+  }
+}

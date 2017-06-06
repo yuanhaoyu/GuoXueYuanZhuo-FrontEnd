@@ -1,0 +1,25 @@
+.rank{
+    width: 80%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #f7f6f4;
+    color: black;
+
+    .rank-title{
+        text-align: center;
+        padding: 5px;
+        padding-top: 0;
+        border-bottom: 1px solid grey;
+        font-size: 18px;
+    }
+    .rank-content{
+        padding: 10px;
+        font-size: 16px;
+        li{
+            margin-bottom: 5px;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+.pk-content{
+    width: 100%;
+    padding-top: 70px;
+    .pk-search-img{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        border: 2px solid #161616;
+        border-radius: 5px;
+    }
+    .pk-search{
+        width: 70%;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        background: #161616;
+        color: white;
+        border: 0;
+        outline: 0;        
+    }
+    .pk-member{
+        width: 70%;
+        height: 200px;
+        border: 2px solid #161616;
+        margin: 0 auto;
+        margin-bottom: 22px;
+    }
+    .pk-ready{
+        width: 70%;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        margin: 0 auto;
+        background: #161616;
+        color: white;
+        border: 0;   
+        outline: 0;
+    }
+
+    p{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+.pk-question{
+    width: 92%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 45px;
+
+    .pk-question-title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .pk-question-answer{
+        li{
+            margin-bottom: 4px;
+        }
+    }
+}
+.pk-winner-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+}
+.pk-winner-content{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+
+.pk-btn{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    width: 220px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    background: #161616;
+    color: white;
+}
+.pk-wrong{
+    .red{
+        color: red;
+    }
+}
+.pk-back{
+    font-size: 15px;
+    position: fixed;
+    bottom: 35px;
+    right: 25px;
+}
+
+.pk-doFinish{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pk-doWin-title{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pk-doLose-title{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}

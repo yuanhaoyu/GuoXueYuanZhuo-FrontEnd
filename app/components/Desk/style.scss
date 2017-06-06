@@ -1,0 +1,26 @@
+.Desk{
+    width: 100%;
+    padding-top: 10px;
+    .DeskImg{
+        width: 94%;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+        }
+    }
+    .DeskTime{
+        padding: 10px;
+        padding-bottom: 0;
+        text-align: center;
+
+        .time{
+            font-size: 15px;
+        }
+        .timeCH{
+            margin-top: 4px;
+            font-size: 16px;
+        }
+    }
+}
+

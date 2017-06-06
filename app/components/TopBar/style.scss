@@ -1,0 +1,68 @@
+.topbar{
+    width: 100%;
+    height: 55px;
+    background: #f7f6f4;
+    padding-top: 8px;
+    .userImg{
+        width: 20%;
+        height: 46px;
+        float: left;
+        img{
+            width: 40px;
+            height: 40px;
+            display: block;
+            margin:  0 auto;
+            margin-top: 3px;
+            border:1px solid white;
+            border-radius: 50%;
+        }
+    }
+
+    .userName{
+        width: 60%;
+        height: 46px;
+        line-height: 46px;
+        float: left;
+        text-align: center;
+    }
+    .VIT{
+        width: 18%;
+        height: 46px;
+        line-height: 46px;        
+        float: left;       
+        text-align: center; 
+    }
+
+    .sideNav{
+
+        .topbar-userInfo{
+            padding: 30px;
+            padding-bottom: 2px;
+            width: 100%;
+            
+            &>img{
+                display: block;
+                width: 60px;
+                height: 60px;
+                border:1px solid grey;
+                border-radius: 50%;
+                margin:  0 auto;
+            }
+            .topbar-userInfo-name{
+                margin-top: 10px;
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        .topbar-other{
+            padding: 10px;
+            width: 100%;
+            li{
+                width: 100%;
+                text-align: center;
+                margin-bottom: 5px;
+            }            
+        }
+    }
+
+}

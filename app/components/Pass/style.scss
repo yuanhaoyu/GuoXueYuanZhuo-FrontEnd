@@ -1,0 +1,62 @@
+.pass{
+    width: 100%;
+    min-height: 100%;
+
+    .pass-content{
+        width: 94%;
+        padding: 22px;
+        margin: 0 auto;
+        margin-top: 40px;
+        border: 1px solid gray;
+        border-radius: 8px;
+
+        .pass-title{
+            margin-top: 5px;
+            color: orangered;
+            font-size: 1.3rem;
+        }
+        .pass-q{
+            margin-top: 25px;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .pass-a{
+            margin-bottom: 40px;
+
+            li{
+                margin-bottom: 5px;
+            }
+        }
+        button{
+            width: 50%;
+            height: 2.1rem;
+            line-height: 2.1rem;
+            font-size: 1rem;
+            color: white;
+            background: orangered;
+            display: block;
+            outline: 0;
+            border: 0;
+            margin: 5px auto;
+            border-radius: 5px;
+        }
+    }
+
+
+    .active{
+        color: red;
+    }
+    .lastQuestion{
+        margin-top: 100px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .back{
+        font-size: 15px;
+        position: fixed;
+        bottom: 35px;
+        right: 25px;
+    }
+}
