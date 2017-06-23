@@ -9,3 +9,7 @@ npm install : 安装依赖
 npm run dev : 进行调试
 
 npm run build : 进行生产
+
+---
+
+预览地址：http://yzyxw.online
