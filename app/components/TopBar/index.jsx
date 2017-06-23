@@ -48,7 +48,7 @@ class TopBar extends React.Component{
               <img src="//yzyxw.oss-cn-shanghai.aliyuncs.com/pic/user.jpg"  alt=""/>
               <p className="topbar-userInfo-name">Lv:{this.props.value.data.level}  {this.props.value.data.name}</p>
             </div>
-            <hr/>
+            <div className="line" />
             <div className="topbar-other">
               <ul>
                 <li><Link to="home">圆桌首页</Link></li>              

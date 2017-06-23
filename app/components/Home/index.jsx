@@ -26,8 +26,11 @@ class Home extends React.Component{
     }else{
       return(
         <div className="home">
-          <TopBarContainer/>
-          <Nav/>
+          <div className="header">
+            <TopBarContainer/>
+            <Nav/>
+          </div>
+          <div className="placeDiv"></div>
           <Desk indexImgUrl={this.props.value.pushPic.url}/>
           <Activity activityTitle="悬赏榜" activityContent="闯关模式下在10点体力内连续完成9关，有机会获得神秘道具！"/>
           <Link to={"/articemore?id="+this.props.value.article.id}>

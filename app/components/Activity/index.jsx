@@ -12,10 +12,9 @@ class Activity extends React.Component{
         <div className="Activity">
           <div className="Activity-title">{this.props.activityTitle}</div>
           <div className="Activity-content">{this.props.activityContent}</div>          
-          <hr/>
+          <div className="line"/>
         </div>
       )
-
   }
 }
 

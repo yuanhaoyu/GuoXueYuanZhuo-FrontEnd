@@ -17,7 +17,7 @@ export const GETARTICLEMORE='GETARTICLEMORE';
 export const GETARTICLELIST='GETARTICLELIST';
 var ws; // websocket
 var apiHead="//www.yzyxw.online";
-// var apiHead="//localhost:3000";
+//var apiHead="//localhost:3000";
 
 
 
@@ -157,9 +157,9 @@ export const getQuestions=()=>{
     .then(res=>res.json())
     .then(data=>{
       if(data.code=='200'){
-        console.log(data.data);
+        //console.log(data.data);
       }else if(data.code=='10012'){
-        console.log(data.data);
+        //console.log(data.data);
       }else if(data.code=='10010'){
         browserHistory.push('/check');
         return false;
@@ -300,7 +300,7 @@ export const getRank=()=>{
     .then(data=>{
       console.log(data);
       if(data.code=='200'){
-        console.log(data.data)
+        //console.log(data.data)
       }else{
         return false
       }
@@ -327,7 +327,7 @@ export const getIndexInfo=()=>{
     .then(res=>res.json())
     .then(data=>{
       if(data.code=='200'){
-        console.log(data.data);
+        //console.log(data.data);
       }else{
         return false
       }
@@ -353,7 +353,7 @@ export const getArticleMore=(id)=>{
     .then(res=>res.json())
     .then(data=>{
       if(data.code=='200'){
-        console.log(data.data);
+        //console.log(data.data);
       }else{
         return false
       }
@@ -381,7 +381,7 @@ export const getArticleList=(page)=>{
     .then(res=>res.json())
     .then(data=>{
       if(data.code=='200'){
-        console.log(data.data);
+        //console.log(data.data);
       }else{
         return false
       }

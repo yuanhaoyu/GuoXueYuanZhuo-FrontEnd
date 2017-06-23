@@ -39,7 +39,7 @@ class TeaRoom extends React.Component{
 										<div className="TeaRoom-list-title">{data.title}</div>
 										<div className="TeaRoom-list-author">{author}</div>						
 										<div className="TeaRoom-list-content">{data.subContent}</div>          
-										<hr className="TeaRoom-list-hr"/>
+										<div className="TeaRoom-list-hr"/>
 									</Link>
 								</div>
 							)

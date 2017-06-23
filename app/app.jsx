@@ -34,7 +34,7 @@ import { Router, Route, Link ,IndexRoute ,hashHistory,browserHistory  } from 're
 import rootReducer from 'reducers';
 import * as actionCreators from 'actions';
 
-import 'bootstrap/scss/bootstrap.scss';
+import './lib/stone.scss';
 import './app.scss';
 
  // create store with middlewares

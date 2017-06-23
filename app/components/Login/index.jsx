@@ -25,7 +25,7 @@ class Login extends React.Component{
           <input className="inputValue" type="text" ref="username" placeholder="账号"/>
           <input className="inputValue" type="password" ref="password" placeholder="密码"/>
           <button className="sure" onClick={this.handleLogin}>登陆</button>
-          <p className="register-title">现在还没有账号？点击<Link to="register">注册</Link></p>
+          <p className="login-title">现在还没有账号？点击<Link to="register">注册</Link></p>
         </div>
       </div>
     )

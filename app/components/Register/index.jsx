@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Router, Route, Link ,IndexRoute ,hashHistory,browserHistory  } from 'react-router';
 import './style.scss'
 class Register extends React.Component{
   constructor(props) {
@@ -19,6 +20,7 @@ class Register extends React.Component{
           <input className="inputValue" type="text" ref="username" placeholder="账号"/>
           <input className="inputValue" type="password" ref="password" placeholder="密码"/>
           <button className="sure" onClick={this.handleRegister}>注册</button>
+          <p className="register-title">已经有账号了？点击<Link to="login">登录</Link></p>
         </div>
       </div>
     )

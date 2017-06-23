@@ -27,7 +27,7 @@ class Desk extends React.Component{
                 <div className="time">{yy}-{mm}-{ww}</div>
                 <div className="timeCH">农历{now}</div>
             </div>
-            <hr/>
+             <div className="line"/>
         </div>
       )
 

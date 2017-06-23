@@ -21,6 +21,8 @@ class Nav extends React.Component{
       a2="nav-active";
     }else if(href.indexOf("tearoom")!==-1){
       a3="nav-active"
+    }else{
+      a1="nav-active"; // 无home的Index
     }
   }
   render(){

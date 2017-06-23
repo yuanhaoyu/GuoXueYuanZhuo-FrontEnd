@@ -36,7 +36,7 @@ class ArticeMore extends React.Component{
           <div className="ArticeMore-content">{this.props.value.content}</div>  
           <Link to={"comment?id="+this.props.value.id}>
             <div className="ArticeMore-other">
-              <hr className="upLine"/>
+              <div className="upLine"/>
               <div className="comment">
                 <div className="l">19条评论</div>
                 <div className="r"><img src="//yzyxw.oss-cn-shanghai.aliyuncs.com/pic/next.png" alt=""/></div>
